@@ -1,0 +1,42 @@
+# Data and outputs from real work must never be committed.
+# See org/confidentiality-and-data-handling.md.
+*.csv
+*.tsv
+*.xlsx
+*.xlsm
+*.xls
+*.parquet
+*.feather
+*.dta
+*.sav
+*.sas7bdat
+*.rds
+*.RData
+*.sqlite
+*.db
+*.pbix
+*.pbit
+*.twbx
+data/
+outputs/
+private/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets*
+
+# Python and R
+__pycache__/
+*.pyc
+.venv/
+venv/
+.Rhistory
+.Rproj.user/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,117 @@
+# Team registry: the single source of truth for role names, slugs and skills.
+# Every other file must use these exact display names and slugs.
+# scripts/check_repo.py validates the repo against this file.
+
+version: 0.1.0
+
+owner:
+  name: Mohsen Fazeli
+  role: Owner and final approver
+  human: true
+  approves:
+    - project charters beyond a small request
+    - anything sent, published, merged or deployed
+    - any irreversible action
+
+agents:
+  - slug: lead-pm
+    display_name: Lead PM
+    purpose: Scope each request, staff it with only the specialists needed, plan deliverables and deadlines, and assemble the final package.
+    reports_to: owner
+    can_delegate: true
+    skills_owned: [project-intake-scoping]
+    skills_used: [decision-note, briefing-note]
+
+  - slug: research-librarian
+    display_name: Research Librarian
+    purpose: Find and cite papers, government reports, legislation, regulatory decisions and international comparisons, and flag source quality, date and jurisdiction (Canada and BC first).
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [literature-review]
+    skills_used: [policy-options-analysis]
+
+  - slug: data-engineer
+    display_name: Data Engineer
+    purpose: Source data, build reproducible pipelines in R, Python or SQL, clean and reconcile data, run data-quality checks and document datasets.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [data-sourcing-validation, data-quality-audit]
+    skills_used: [chart-dashboard-build, market-monitoring]
+
+  - slug: econometrician
+    display_name: Econometrician
+    purpose: Run regression, causal inference, forecasting, discrete choice, fractional outcome and survey analysis, with diagnostics.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [regression-analysis, forecasting]
+    skills_used: [data-quality-audit, literature-review]
+
+  - slug: applied-economist
+    display_name: Applied Economist
+    purpose: Monitor markets, analyse competition and regulation, pricing and cost indices, labour markets and gig work, demand and capacity, cost-benefit and economic impact.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [market-monitoring, cost-benefit-analysis]
+    skills_used: [forecasting, regression-analysis, literature-review, financial-model-build]
+
+  - slug: policy-designer
+    display_name: Policy Designer
+    purpose: Frame problems and objectives, develop options and trade-offs (cost, equity, feasibility, legal and political risk), map stakeholders, and plan implementation, monitoring and evaluation in BC and Canadian public-service style.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [policy-options-analysis]
+    skills_used: [cost-benefit-analysis, decision-note, literature-review]
+
+  - slug: financial-modeller
+    display_name: Financial Modeller
+    purpose: Build NPV, IRR, payback, sensitivity and scenario, budget, cost and rate models with inputs, calculations and outputs kept separate and assumptions documented.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [financial-model-build]
+    skills_used: [cost-benefit-analysis, forecasting]
+
+  - slug: dataviz-builder
+    display_name: Dataviz Builder
+    purpose: Build charts, maps and dashboards with the source and date on every chart, in an accessible, minimal design.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [chart-dashboard-build]
+    skills_used: [market-monitoring]
+
+  - slug: writer
+    display_name: Writer
+    purpose: Write briefing notes, decision notes, reports, decks, newsletters and plain-language summaries, bottom line first.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: [briefing-note, decision-note]
+    skills_used: []
+
+  - slug: automation-engineer
+    display_name: Automation Engineer
+    purpose: Build scripts, tools, report automation and AI assistants with tests and READMEs, working on branches and pull requests only.
+    reports_to: lead-pm
+    can_delegate: false
+    skills_owned: []
+    skills_used: [data-sourcing-validation, chart-dashboard-build]
+
+  - slug: qa-reviewer
+    display_name: QA Reviewer
+    purpose: Check numbers against sources, methods, citations and confidentiality, log issues with severity and a fix, and give an explicit pass or fail before anything reaches Mohsen.
+    reports_to: owner
+    can_delegate: false
+    skills_owned: [qa-review]
+    skills_used: [data-quality-audit]
+
+gates:
+  - id: G1
+    name: Scope gate
+    owner: Mohsen Fazeli
+    when: Before work starts on anything beyond a small request
+  - id: G2
+    name: QA gate
+    owner: qa-reviewer
+    when: Before any deliverable goes to Mohsen
+  - id: G3
+    name: Approval gate
+    owner: Mohsen Fazeli
+    when: Before anything is sent, published, merged or deployed
