@@ -37,7 +37,7 @@ Build financial models that a reviewer can follow, test and trust, so that cost,
 ## Skills
 
 - **Owns:** [`financial-model-build`](../../skills/financial-model-build/SKILL.md)
-- **Uses:** [`cost-benefit-analysis`](../../skills/cost-benefit-analysis/SKILL.md)
+- **Uses:** [`cost-benefit-analysis`](../../skills/cost-benefit-analysis/SKILL.md), [`forecasting`](../../skills/forecasting/SKILL.md)
 
 ## Tools and access
 

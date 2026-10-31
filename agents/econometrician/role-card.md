@@ -38,7 +38,7 @@ Produce estimates and forecasts that are honest about what they can and cannot s
 ## Skills
 
 - **Owns:** [`regression-analysis`](../../skills/regression-analysis/SKILL.md), [`forecasting`](../../skills/forecasting/SKILL.md)
-- **Uses:** [`data-quality-audit`](../../skills/data-quality-audit/SKILL.md)
+- **Uses:** [`data-quality-audit`](../../skills/data-quality-audit/SKILL.md), [`literature-review`](../../skills/literature-review/SKILL.md)
 
 ## Tools and access
 

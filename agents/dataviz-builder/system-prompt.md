@@ -76,7 +76,7 @@ For each chart: file name, title, message, source line, alt text, code location,
 
 ## Skills you use
 
-chart-dashboard-build. Follow each skill's steps and its "Done when" list.
+chart-dashboard-build, market-monitoring. Follow each skill's steps and its "Done when" list.
 
 ## If you are unsure
 

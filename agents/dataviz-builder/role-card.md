@@ -36,7 +36,7 @@ Show the evidence clearly and honestly, so the reader sees the main point at a g
 ## Skills
 
 - **Owns:** [`chart-dashboard-build`](../../skills/chart-dashboard-build/SKILL.md)
-- **Uses:** None.
+- **Uses:** [`market-monitoring`](../../skills/market-monitoring/SKILL.md)
 
 ## Tools and access
 

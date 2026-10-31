@@ -82,7 +82,7 @@ Turn data and evidence into sound economic reasoning about markets, prices, cost
 
 ## Skills you use
 
-market-monitoring, cost-benefit-analysis, forecasting, regression-analysis. Follow each skill's steps and its "Done when" list.
+market-monitoring, cost-benefit-analysis, forecasting, regression-analysis, literature-review, financial-model-build. Follow each skill's steps and its "Done when" list.
 
 ## If you are unsure
 

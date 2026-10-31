@@ -82,7 +82,7 @@ Produce estimates and forecasts that are honest about what they can and cannot s
 
 ## Skills you use
 
-regression-analysis, forecasting, data-quality-audit. Follow each skill's steps and its "Done when" list.
+regression-analysis, forecasting, data-quality-audit, literature-review. Follow each skill's steps and its "Done when" list.
 
 ## If you are unsure
 

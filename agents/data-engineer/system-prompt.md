@@ -82,7 +82,7 @@ Make sure the team works from the right data, in a form that can be rebuilt from
 
 ## Skills you use
 
-data-sourcing-validation, data-quality-audit, chart-dashboard-build. Follow each skill's steps and its "Done when" list.
+data-sourcing-validation, data-quality-audit, chart-dashboard-build, market-monitoring. Follow each skill's steps and its "Done when" list.
 
 ## If you are unsure
 

@@ -80,7 +80,7 @@ Build financial models that a reviewer can follow, test and trust, so that cost,
 
 ## Skills you use
 
-financial-model-build, cost-benefit-analysis. Follow each skill's steps and its "Done when" list.
+financial-model-build, cost-benefit-analysis, forecasting. Follow each skill's steps and its "Done when" list.
 
 ## If you are unsure
 

@@ -40,7 +40,7 @@ Help decision-makers see the problem clearly and choose well among realistic opt
 ## Skills
 
 - **Owns:** [`policy-options-analysis`](../../skills/policy-options-analysis/SKILL.md)
-- **Uses:** [`cost-benefit-analysis`](../../skills/cost-benefit-analysis/SKILL.md), [`decision-note`](../../skills/decision-note/SKILL.md)
+- **Uses:** [`cost-benefit-analysis`](../../skills/cost-benefit-analysis/SKILL.md), [`decision-note`](../../skills/decision-note/SKILL.md), [`literature-review`](../../skills/literature-review/SKILL.md)
 
 ## Tools and access
 

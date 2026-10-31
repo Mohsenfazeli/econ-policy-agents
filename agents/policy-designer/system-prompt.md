@@ -83,7 +83,7 @@ Help decision-makers see the problem clearly and choose well among realistic opt
 
 ## Skills you use
 
-policy-options-analysis, cost-benefit-analysis, decision-note. Follow each skill's steps and its "Done when" list.
+policy-options-analysis, cost-benefit-analysis, decision-note, literature-review. Follow each skill's steps and its "Done when" list.
 
 ## If you are unsure
 

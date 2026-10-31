@@ -39,7 +39,7 @@ Make sure the team works from the right data, in a form that can be rebuilt from
 ## Skills
 
 - **Owns:** [`data-sourcing-validation`](../../skills/data-sourcing-validation/SKILL.md), [`data-quality-audit`](../../skills/data-quality-audit/SKILL.md)
-- **Uses:** [`chart-dashboard-build`](../../skills/chart-dashboard-build/SKILL.md)
+- **Uses:** [`chart-dashboard-build`](../../skills/chart-dashboard-build/SKILL.md), [`market-monitoring`](../../skills/market-monitoring/SKILL.md)
 
 ## Tools and access
 

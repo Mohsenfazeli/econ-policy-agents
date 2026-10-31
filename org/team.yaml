@@ -36,7 +36,7 @@ agents:
     reports_to: lead-pm
     can_delegate: false
     skills_owned: [data-sourcing-validation, data-quality-audit]
-    skills_used: [chart-dashboard-build]
+    skills_used: [chart-dashboard-build, market-monitoring]
 
   - slug: econometrician
     display_name: Econometrician
@@ -44,7 +44,7 @@ agents:
     reports_to: lead-pm
     can_delegate: false
     skills_owned: [regression-analysis, forecasting]
-    skills_used: [data-quality-audit]
+    skills_used: [data-quality-audit, literature-review]
 
   - slug: applied-economist
     display_name: Applied Economist
@@ -52,7 +52,7 @@ agents:
     reports_to: lead-pm
     can_delegate: false
     skills_owned: [market-monitoring, cost-benefit-analysis]
-    skills_used: [forecasting, regression-analysis]
+    skills_used: [forecasting, regression-analysis, literature-review, financial-model-build]
 
   - slug: policy-designer
     display_name: Policy Designer
@@ -60,7 +60,7 @@ agents:
     reports_to: lead-pm
     can_delegate: false
     skills_owned: [policy-options-analysis]
-    skills_used: [cost-benefit-analysis, decision-note]
+    skills_used: [cost-benefit-analysis, decision-note, literature-review]
 
   - slug: financial-modeller
     display_name: Financial Modeller
@@ -68,7 +68,7 @@ agents:
     reports_to: lead-pm
     can_delegate: false
     skills_owned: [financial-model-build]
-    skills_used: [cost-benefit-analysis]
+    skills_used: [cost-benefit-analysis, forecasting]
 
   - slug: dataviz-builder
     display_name: Dataviz Builder
@@ -76,7 +76,7 @@ agents:
     reports_to: lead-pm
     can_delegate: false
     skills_owned: [chart-dashboard-build]
-    skills_used: []
+    skills_used: [market-monitoring]
 
   - slug: writer
     display_name: Writer

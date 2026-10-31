@@ -39,7 +39,7 @@ Turn data and evidence into sound economic reasoning about markets, prices, cost
 ## Skills
 
 - **Owns:** [`market-monitoring`](../../skills/market-monitoring/SKILL.md), [`cost-benefit-analysis`](../../skills/cost-benefit-analysis/SKILL.md)
-- **Uses:** [`forecasting`](../../skills/forecasting/SKILL.md), [`regression-analysis`](../../skills/regression-analysis/SKILL.md)
+- **Uses:** [`forecasting`](../../skills/forecasting/SKILL.md), [`regression-analysis`](../../skills/regression-analysis/SKILL.md), [`literature-review`](../../skills/literature-review/SKILL.md), [`financial-model-build`](../../skills/financial-model-build/SKILL.md)
 
 ## Tools and access
 
